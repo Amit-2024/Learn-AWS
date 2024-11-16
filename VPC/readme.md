@@ -1,14 +1,18 @@
-A Virtual Private Cloud (VPC) in AWS is an isolated network dedicated to your AWS account within the AWS cloud. It gives you full control over your virtual networking environment, including the selection of your IP address range, creation of subnets, configuration of route tables, and network gateways. Think of a VPC as a secure, customizable "virtual data center" in the cloud where you can place and control your AWS resources.
+#VPC
+###A Virtual Private Cloud (VPC) in AWS is an isolated network dedicated to your AWS account within the AWS cloud. It gives you full control over your virtual networking environment, including the selection of your IP address range, creation of subnets, configuration of route tables, and network gateways. Think of a VPC as a secure, customizable "virtual data center" in the cloud where you can place and control your AWS resources.
 
-Key Components of VPC
-Subnets: A VPC is divided into subnets, each associated with a specific availability zone (AZ). Subnets are categorized as:
+#Key Components of VPC
+##Subnets: A VPC is divided into subnets, each associated with a specific availability zone (AZ). Subnets are categorized as:
 
-Public Subnet: Accessible from the internet.
+
+> Public Subnet: Accessible from the internet.
 Private Subnet: Not directly accessible from the internet; intended for resources that should not have public access.
 Route Tables: These determine how traffic is routed within your VPC. Each subnet is associated with a route table.
 
 Main Route Table: Default route table for the VPC.
+
 Custom Route Tables: Can be created to manage routes differently for public and private subnets.
+
 Internet Gateway (IGW): A component that allows communication between instances in your VPC and the internet. Attach it to your VPC to allow instances in a public subnet to access the internet.
 
 NAT Gateway / NAT Instance: Used to provide internet access for instances in private subnets without exposing them to incoming traffic from the internet.
