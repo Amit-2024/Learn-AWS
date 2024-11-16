@@ -1,9 +1,9 @@
-# Class	IP Range	Default             Subnet     Mask	           Hosts per Network	  Use Case
-## A	              0.0.0.0   -   127.255.255.255	255.0.0.0	16       million	          Very large networks
-## B	              128.0.0.0 –   191.255.255.255	255.255.0.0	       65,536	            Medium-large networks
-## C	              192.0.0.0 –   223.255.255.255	255.255.255.0      	254	              Small networks
-## D	              224.0.0.0 –   239.255.255.255	   N/A	            N/A	              Multicast
-## E               240.0.0.0 –   255.255.255.255	   N/A	            N/A	              Experimental
+### Class	IP Range	Default             Subnet       Mask	           Hosts per Network	  Use Case
+### A	             0.0.0.0   -   127.255.255.255	255.0.0.0	16       million	          Very large networks
+### B	             128.0.0.0 –   191.255.255.255	255.255.0.0	       65,536	            Medium-large networks
+### C	             192.0.0.0 –   223.255.255.255	255.255.255.0      	254	              Small networks
+### D	             224.0.0.0 –   239.255.255.255	   N/A	            N/A	              Multicast
+### E               240.0.0.0 –   255.255.255.255	   N/A	            N/A	              Experimental
 
 
 
