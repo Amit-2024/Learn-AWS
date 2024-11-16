@@ -1,3 +1,12 @@
+Class	IP Range	Default             Subnet     Mask	           Hosts per Network	  Use Case
+A	              0.0.0.0   -   127.255.255.255	255.0.0.0	16       million	          Very large networks
+B	              128.0.0.0 –   191.255.255.255	255.255.0.0	       65,536	            Medium-large networks
+C	              192.0.0.0 –   223.255.255.255	255.255.255.0      	254	              Small networks
+D	              224.0.0.0 –   239.255.255.255	   N/A	            N/A	              Multicast
+E               240.0.0.0 –   255.255.255.255	   N/A	            N/A	              Experimental
+
+
+
 # VPC
 ### A Virtual Private Cloud (VPC) AWS is an isolated network dedicated to your AWS account within the AWS cloud. It gives you full control over your virtual networking environment, including the selection of your IP address range, creation of subnets, configuration of route tables, and network gateways. Think of a VPC as a secure, customizable "virtual data center" in the cloud where you can place and control your AWS resources. 
 ## Or we can say VPC is something which introduces the concept of private cloud in the world of public cloud.
