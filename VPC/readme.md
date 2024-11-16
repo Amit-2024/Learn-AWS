@@ -3,11 +3,11 @@
 ## Or we can say VPC is something which introduces the concept of private cloud in the world of public cloud.
 
 # Key Components of VPC
-## Subnets: A VPC is divided into subnets, each associated with a specific availability zone (AZ)
-## Subnets are categorized as:
+> Subnets: A VPC is divided into subnets, each associated with a specific availability zone (AZ)
+> Subnets are categorized as:
+> ### Public Subnet: Accessible from the internet.
+> ### Private Subnet: Not directly accessible from the internet; intended for resources that should not have public access.
 
-> Public Subnet: Accessible from the internet.
-> Private Subnet: Not directly accessible from the internet; intended for resources that should not have public access.
 > Route Tables: These determine how traffic is routed within your VPC. Each subnet is associated with a route table.
 
 > Main Route Table: Default route table for the VPC.
