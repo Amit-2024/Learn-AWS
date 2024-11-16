@@ -24,7 +24,8 @@ The service forwards traffic to one of the pods matching the selector in its con
 
 ## Visual Flow Diagram:
 > Client Request → Load Balancer (Ingress Controller) → Ingress Resource → Service → Pod (Application)
-Key Notes:
-Ingress Controller: It is the bridge between the Ingress resource and the external load balancer.
-Load Balancer Type: For AWS, the ALB is commonly used, which is dynamically configured by the Ingress Controller.
-Service and Pod Communication: Kubernetes uses kube-proxy or other networking solutions to forward traffic from the service to pods efficiently.
+
+## Key Notes:
+### Ingress Controller: It is the bridge between the Ingress resource and the external load balancer.
+### Load Balancer Type: For AWS, the ALB is commonly used, which is dynamically configured by the Ingress Controller.
+### Service and Pod Communication: Kubernetes uses kube-proxy or other networking solutions to forward traffic from the service to pods efficiently.
