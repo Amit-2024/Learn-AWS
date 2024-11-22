@@ -111,8 +111,10 @@ Automatically scale down instances during low traffic periods.
 
 # Example Architecture
 Imagine a multi-tier web application:
-
 Frontend: ALB routes HTTP/HTTPS traffic to web servers (EC2 instances).
+
 Backend: Another ALB directs API requests to microservices running on ECS.
+
 Database Layer: RDS in private subnets ensures secure data storage.
+
 Security: WAF integrated with the ALB to block malicious traffic.
