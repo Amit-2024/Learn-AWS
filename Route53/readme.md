@@ -23,18 +23,25 @@ NS (Name Server): Delegates a DNS zone to a specific DNS server.
 ### c) Routing Policies
 Simple Routing:
 Default policy; maps a domain to a single resource.
+
 Weighted Routing:
 Distributes traffic across multiple resources based on assigned weights.
+
 Latency-Based Routing:
 Directs traffic to the resource with the lowest network latency.
+
 Failover Routing:
 Switches traffic to a standby resource in case the primary resource becomes unavailable.
+
 Geolocation Routing:
 Directs traffic based on the geographic location of users.
+
 Geoproximity Routing:
 Routes traffic based on user location and configurable bias.
+
 Multi-Value Answer Routing:
 Provides multiple IP addresses in response to a query, improving fault tolerance.
+
 ### d) Health Checks
 Monitor the availability and performance of endpoints like websites, APIs, or applications.
 Automatically reroutes traffic to healthy endpoints during failures.
