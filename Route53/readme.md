@@ -81,7 +81,7 @@ Domain example.com points to an IP address 192.0.2.1:
 Name	        Type	      Value	TTL
 example.com  	A	        192.0.2.1	300
 
-# 8. Configuration Example
+# 6. Configuration Example
 ### Use Case: Route Traffic to a Global Application with Latency-Based Routing
 #### Create Hosted Zone:
 
@@ -96,7 +96,7 @@ example.com  	A	        192.0.2.1	300
 #### Verify Setup:
 Test DNS resolution using dig or nslookup.
 
-# 9. Advantages of Route 53
+# 7. Advantages of Route 53
 1. High availability and scalability.
 2. Deep integration with AWS ecosystem.
 3. Cost-effective DNS hosting.
