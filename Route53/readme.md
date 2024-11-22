@@ -72,3 +72,33 @@ Combine health checks with failover routing for a resilient multi-region archite
 ### d) Optimize Content Delivery
 Integrate with CloudFront for global content distribution.
 Use geolocation routing to serve localized content.
+
+
+# 5. Example DNS Records
+Simple A Record:
+Domain example.com points to an IP address 192.0.2.1:
+
+Name	        Type	      Value	TTL
+example.com  	A	        192.0.2.1	300
+
+# 8. Configuration Example
+### Use Case: Route Traffic to a Global Application with Latency-Based Routing
+#### Create Hosted Zone:
+
+#### Register a domain (e.g., myapp.com) or create a hosted zone.
+#### Add Latency Routing Policy:
+
+#### Define record sets pointing to resources in multiple regions.
+#### Set routing policy to latency-based.
+#### Enable Health Checks:
+
+#### Add health checks to monitor endpoints (e.g., us-east-1.myapp.com).
+#### Verify Setup:
+Test DNS resolution using dig or nslookup.
+
+# 9. Advantages of Route 53
+1. High availability and scalability.
+2. Deep integration with AWS ecosystem.
+3. Cost-effective DNS hosting.
+4. Flexible routing policies for diverse use cases.
+
